@@ -1,3 +1,74 @@
-h1 {
-  color: darkorange;
+body{
+  font-family: Monospace, Monaco;
+  background-color: beige;
+}
+
+#Title{
+  color: navy;
+  text-align: center;
+}
+
+.headline{
+  text-align: left;
+  margin-left: 20px;
+}
+
+.grid-container{
+  display: inline-grid;
+  grid-template-columns: auto auto;
+  grid-gap: 10px;
+  padding: 5px;
+}
+
+.country_name{
+  border: 1px solid blue;
+  color: Black;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  width: 200px;
+  height: 133px;
+  text-align: center;
+  display: inline-block;
+  background-size: cover;
+
+}
+
+#SPA{
+    background-image: url("https://flagpedia.net/data/flags/w580/es.png");
+}
+#ARM{
+    background-image: url("https://flagpedia.net/data/flags/w580/am.png");
+
+}
+#ITA{
+    background-image: url("https://flagpedia.net/data/flags/w580/it.png");
+}
+#JPA{
+    background-image: url("https://flagpedia.net/data/flags/w580/jp.png");
+}
+
+.food_title{
+  position: absolute;
+  top: 130px;
+  left: 490px;
+  width: 65%;
+}
+
+.description{
+  color: red;
+  font-style: italic;
+  font-size: 18px;
+  font-weight: 550;
+}
+
+#food-art {
+  position: fixed;
+  top: 180px;
+  left: 480px;
+  width: 50%;
+  height: 50%;
+  display: inline-block;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
