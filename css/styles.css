@@ -36,9 +36,11 @@ body{
 
 #SPA{
     background-image: url("https://flagpedia.net/data/flags/w580/es.png");
+    color: white;
 }
 #ARM{
     background-image: url("https://flagpedia.net/data/flags/w580/am.png");
+    color: white;
 
 }
 #ITA{
@@ -51,7 +53,7 @@ body{
 .food_title{
   position: absolute;
   top: 100px;
-  left: 620px;
+  left: 610px;
   width: 65%;
 }
 
