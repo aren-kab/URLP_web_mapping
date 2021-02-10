@@ -11,11 +11,11 @@ $('.grid-item').on('click', function() {
 })
 
 $("#SPA").mouseover(function(){
-  $(".description").text("Jamon - Cured Iberian Ham");
+  $(".description").text("Jamon - Dry Cured Iberian or Serrano Ham sliced thinly");
 });
 
 $("#ARM").mouseover(function(){
-  $(".description").text("Boreg - Cheese & Philadough Pastry");
+  $(".description").text("Boreg - Cream Cheese & Philadough Pastry topped w/ seeds");
 });
 
 $("#ITA").mouseover(function(){
