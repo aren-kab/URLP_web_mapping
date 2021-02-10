@@ -74,7 +74,6 @@ body{
   font-size: 18px;
   font-weight: 550;
   /* text-align: left; */
-  
 
 }
 
@@ -86,6 +85,6 @@ body{
   display:inline-block;
   background-size: cover;
   background-repeat: no-repeat;
-  /* float: center; */
+  background-position: center;
 
 }
