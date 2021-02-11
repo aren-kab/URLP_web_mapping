@@ -1,8 +1,8 @@
 //on click
 $('.grid-item').on('click', function() {
-	// pull out the album cover url from the element's attributes
+	// pull out the food url from the element's attributes
 	var foodUrl = $(this).attr('food')
-  // log the album cover url to the console
+  // log the food  url to the console
   console.log(foodUrl)
 
   $('#food-art').empty()
@@ -10,6 +10,7 @@ $('.grid-item').on('click', function() {
   $('#food-art').css('background-image', `url(${foodUrl})`)
 })
 
+//Input hover functionality for food description
 $("#SPA").mouseover(function(){
   $(".description").text("Jamon - Dry Cured Iberian or Serrano Ham sliced thinly");
 });

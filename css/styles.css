@@ -22,7 +22,7 @@ body{
 
 .column {
   float: left;
-  width: 50%;
+  /* width: 50%; uneven columns look better after testing*/
 }
 
 /* Clear floats after the columns */
@@ -30,6 +30,19 @@ body{
   content: "";
   display: table;
   clear: both;
+}
+
+.left{
+  width: 35%;
+}
+.right{
+  width: 65%;
+}
+
+@media screen and (max-width: 1000px) {
+  .column {
+    width: 100%;
+  }
 }
 
 .country_name{
@@ -62,12 +75,6 @@ body{
     background-image: url("https://flagpedia.net/data/flags/w580/jp.png");
 }
 
-.food_title{
-  /* top: 100px; */
-  /* right: 10px; */
-  /* width: 65%; */
-}
-
 .description{
   color: red;
   font-style: italic;
@@ -79,7 +86,6 @@ body{
 
 #food-art {
   top: 180px;
-  /* left: 480px; */
   width: 500px;
   height: 400px;
   display:inline-block;
