@@ -11,19 +11,19 @@ $('.grid-item').on('click', function() {
 })
 
 //Input hover functionality for food description
-$("#SPA").mouseover(function(){
+$("#SPA").click(function(){
   $(".description").text("Jamon - Dry Cured Iberian or Serrano Ham sliced thinly");
 });
 
-$("#ARM").mouseover(function(){
+$("#ARM").click(function(){
   $(".description").text("Boreg - Cream Cheese & Philadough Pastry topped w/ seeds");
 });
 
-$("#ITA").mouseover(function(){
+$("#ITA").click(function(){
   $(".description").text("Zuchini Fries - Zuchini cut in small sticks and fried");
   $
 });
 
-$("#JPA").mouseover(function(){
+$("#JPA").click(function(){
   $(".description").text("Dumplings - Pork & Chives wrapped in pan fried dough");
 });
